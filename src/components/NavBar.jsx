@@ -11,11 +11,12 @@ const NavBar = () => {
                     TiendAll
                 </Box>
                 <Spacer />
+                <Box p='4'>
+                    <a href="">Inicio</a>
+                </Box>
                 <Menu>
                     <MenuButton>
-                        Inicio
                         Productos
-                        Contacto
                     </MenuButton>
                     <MenuList>
                         <MenuItem>Celulares</MenuItem>
@@ -24,7 +25,11 @@ const NavBar = () => {
                         <MenuItem>Audio y video</MenuItem>
                         <MenuItem>Otros</MenuItem>
                     </MenuList>
+
                 </Menu>
+                <Box p='4'>
+                    <a href="">Contacto</a>
+                </Box>
                 <Spacer />
                 <Box p='4'>
                     <CartWidget />
